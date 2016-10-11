@@ -1,0 +1,35 @@
+{
+  "jspm": {
+    "dependencies": {
+      "fetch": "npm:whatwg-fetch@^1.0.0",
+      "react": "npm:react@^15.3.2",
+      "react-dom": "npm:react-dom@^15.3.2",
+      "whatwg-fetch": "npm:whatwg-fetch@^1.0.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "name": "jspm-react",
+  "version": "1.0.0",
+  "description": "jspm react",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jspm",
+    "react"
+  ],
+  "author": "nasif md. tanjim <n.md.tanjim@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-open": "^2.0.0",
+    "gulp-shell": "^0.5.2",
+    "st": "^1.2.0"
+  }
+}

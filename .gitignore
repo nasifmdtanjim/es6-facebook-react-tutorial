@@ -1,0 +1,12 @@
+.idea
+.vscode
+node_modules
+jspm_packages
+bower_components
+out
+build
+platform
+plugins
+typings
+target
+dist
