@@ -3,14 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
   <title>jspm</title>
 </head>
 <body>
   <div id="react">
-    Loading...
+    <div class="loading">
+      <img class="cog" src="/cog.gif" alt="Loading">
+    </div>
   </div>
+
+  <!-- Scripts -->
   <script src="/jspm_packages/system.js"></script>
-  <script src="/dist/build.js"></script>
   <script src="/config.js"></script>
   <script>
     System.import('src/app');
