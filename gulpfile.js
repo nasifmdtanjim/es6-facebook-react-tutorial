@@ -6,7 +6,7 @@ var st = require('st'),
     livereload = require('gulp-livereload');
 
 gulp.task('bundle', shell.task([
-  'jspm bundle -m src/app.js dist/build.js'
+  'jspm bundle src/app.js dist/build.js -m --inject'
 ]));
 
 gulp.task('chrome', function () {
