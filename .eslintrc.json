@@ -22,10 +22,10 @@
 			"error",
 			"unix"
 		],
-		"quotes": [
+		/*"quotes": [
 			"error",
-			"single"
-		],
+			"double"
+		],*/
 		"semi": [
 			"error",
 			"always"

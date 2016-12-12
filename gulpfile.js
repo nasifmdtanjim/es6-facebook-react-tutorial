@@ -1,9 +1,10 @@
-var st = require('st'),
-    gulp = require('gulp'),
-    http = require('http'),
-    open = require('gulp-open'),
-    shell = require('gulp-shell'),
-    livereload = require('gulp-livereload');
+var
+  st = require('st'),
+  gulp = require('gulp'),
+  http = require('http'),
+  open = require('gulp-open'),
+  shell = require('gulp-shell'),
+  livereload = require('gulp-livereload');
 
 gulp.task('bundle', shell.task([
   'jspm bundle src/app.js dist/build.js -m --inject'
@@ -28,11 +29,11 @@ gulp.task('server', function (done) {
 });
 
 gulp.task('default', ['server'], function() {
-	livereload.listen({
-		basePath: 'src'
-	});
-	gulp.start('chrome');
-	gulp.watch('src/*', function () {
-		livereload.reload();
-	});
+  livereload.listen({
+    basePath: 'src'
+  });
+  gulp.start('chrome');
+  gulp.watch('src/*', function () {
+    livereload.reload();
+  });
 });
